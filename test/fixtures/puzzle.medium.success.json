@@ -1,0 +1,240 @@
+{
+  "schemaVersion": "1.0.0",
+  "data": {
+    "id": "animals-medium-v1-0001",
+    "themeId": "animals",
+    "locale": "en-US",
+    "difficulty": "medium",
+    "rows": 12,
+    "cols": 12,
+    "grid": [
+      "AZHTOADCWPNA",
+      "QEUXNLTYBGZD",
+      "BBSLVCIFTGGE",
+      "XRLSYAGLOGSE",
+      "JAVKSTEDOCPR",
+      "HORSEFRRWPSZ",
+      "OVUFFZFFRKVQ",
+      "GSDCDLNBIRDW",
+      "BSISIISKADLO",
+      "FJRJYOOERGIL",
+      "OEDTZNBDWZPF",
+      "XHKREXSDMFOB"
+    ],
+    "allowedDirections": [
+      "E",
+      "S",
+      "SE",
+      "NE"
+    ],
+    "targets": [
+      {
+        "id": "cat",
+        "display": "Cat",
+        "letters": "CAT",
+        "paths": [
+          {
+            "start": {
+              "row": 2,
+              "col": 5
+            },
+            "end": {
+              "row": 4,
+              "col": 5
+            }
+          }
+        ]
+      },
+      {
+        "id": "dog",
+        "display": "Dog",
+        "letters": "DOG",
+        "paths": [
+          {
+            "start": {
+              "row": 4,
+              "col": 7
+            },
+            "end": {
+              "row": 2,
+              "col": 9
+            }
+          }
+        ]
+      },
+      {
+        "id": "bird",
+        "display": "Bird",
+        "letters": "BIRD",
+        "paths": [
+          {
+            "start": {
+              "row": 7,
+              "col": 7
+            },
+            "end": {
+              "row": 7,
+              "col": 10
+            }
+          }
+        ]
+      },
+      {
+        "id": "frog",
+        "display": "Frog",
+        "letters": "FROG",
+        "paths": [
+          {
+            "start": {
+              "row": 6,
+              "col": 6
+            },
+            "end": {
+              "row": 3,
+              "col": 9
+            }
+          }
+        ]
+      },
+      {
+        "id": "horse",
+        "display": "Horse",
+        "letters": "HORSE",
+        "paths": [
+          {
+            "start": {
+              "row": 5,
+              "col": 0
+            },
+            "end": {
+              "row": 5,
+              "col": 4
+            }
+          }
+        ]
+      },
+      {
+        "id": "lion",
+        "display": "Lion",
+        "letters": "LION",
+        "paths": [
+          {
+            "start": {
+              "row": 7,
+              "col": 5
+            },
+            "end": {
+              "row": 10,
+              "col": 5
+            }
+          }
+        ]
+      },
+      {
+        "id": "tiger",
+        "display": "Tiger",
+        "letters": "TIGER",
+        "paths": [
+          {
+            "start": {
+              "row": 1,
+              "col": 6
+            },
+            "end": {
+              "row": 5,
+              "col": 6
+            }
+          }
+        ]
+      },
+      {
+        "id": "zebra",
+        "display": "Zebra",
+        "letters": "ZEBRA",
+        "paths": [
+          {
+            "start": {
+              "row": 0,
+              "col": 1
+            },
+            "end": {
+              "row": 4,
+              "col": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "bear",
+        "display": "Bear",
+        "letters": "BEAR",
+        "paths": [
+          {
+            "start": {
+              "row": 10,
+              "col": 6
+            },
+            "end": {
+              "row": 7,
+              "col": 9
+            }
+          }
+        ]
+      },
+      {
+        "id": "wolf",
+        "display": "Wolf",
+        "letters": "WOLF",
+        "paths": [
+          {
+            "start": {
+              "row": 7,
+              "col": 11
+            },
+            "end": {
+              "row": 10,
+              "col": 11
+            }
+          }
+        ]
+      },
+      {
+        "id": "fox",
+        "display": "Fox",
+        "letters": "FOX",
+        "paths": [
+          {
+            "start": {
+              "row": 9,
+              "col": 0
+            },
+            "end": {
+              "row": 11,
+              "col": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "deer",
+        "display": "Deer",
+        "letters": "DEER",
+        "paths": [
+          {
+            "start": {
+              "row": 1,
+              "col": 11
+            },
+            "end": {
+              "row": 4,
+              "col": 11
+            }
+          }
+        ]
+      }
+    ],
+    "engineVersion": "1.0.0",
+    "contentVersion": "animals-v1",
+    "checksum": "sha256:d3ea4db717d32a1fca4777629ac58aff4fa02e41d2e46a13e99b49925583e410"
+  }
+}

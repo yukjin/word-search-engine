@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "1.0.0",
+  "data": {
+    "id": "animals-easy-v1-0001",
+    "themeId": "animals",
+    "locale": "en-US",
+    "difficulty": "easy",
+    "rows": 10,
+    "cols": 10,
+    "grid": [
+      "AZUBQZGQSB",
+      "PVVCBKHAZR",
+      "TDOGLKHAXG",
+      "IZEBRAORLU",
+      "GUFROGRMIQ",
+      "EKSNTBSEOX",
+      "RIDJQIEQNK",
+      "ZYXBIRCEYV",
+      "FUOUQDAORC",
+      "NGHTSITVHT"
+    ],
+    "allowedDirections": [
+      "E",
+      "S"
+    ],
+    "targets": [
+      {
+        "id": "cat",
+        "display": "Cat",
+        "letters": "CAT",
+        "paths": [
+          {
+            "start": {
+              "row": 7,
+              "col": 6
+            },
+            "end": {
+              "row": 9,
+              "col": 6
+            }
+          }
+        ]
+      },
+      {
+        "id": "dog",
+        "display": "Dog",
+        "letters": "DOG",
+        "paths": [
+          {
+            "start": {
+              "row": 2,
+              "col": 1
+            },
+            "end": {
+              "row": 2,
+              "col": 3
+            }
+          }
+        ]
+      },
+      {
+        "id": "bird",
+        "display": "Bird",
+        "letters": "BIRD",
+        "paths": [
+          {
+            "start": {
+              "row": 5,
+              "col": 5
+            },
+            "end": {
+              "row": 8,
+              "col": 5
+            }
+          }
+        ]
+      },
+      {
+        "id": "frog",
+        "display": "Frog",
+        "letters": "FROG",
+        "paths": [
+          {
+            "start": {
+              "row": 4,
+              "col": 2
+            },
+            "end": {
+              "row": 4,
+              "col": 5
+            }
+          }
+        ]
+      },
+      {
+        "id": "horse",
+        "display": "Horse",
+        "letters": "HORSE",
+        "paths": [
+          {
+            "start": {
+              "row": 2,
+              "col": 6
+            },
+            "end": {
+              "row": 6,
+              "col": 6
+            }
+          }
+        ]
+      },
+      {
+        "id": "lion",
+        "display": "Lion",
+        "letters": "LION",
+        "paths": [
+          {
+            "start": {
+              "row": 3,
+              "col": 8
+            },
+            "end": {
+              "row": 6,
+              "col": 8
+            }
+          }
+        ]
+      },
+      {
+        "id": "tiger",
+        "display": "Tiger",
+        "letters": "TIGER",
+        "paths": [
+          {
+            "start": {
+              "row": 2,
+              "col": 0
+            },
+            "end": {
+              "row": 6,
+              "col": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "zebra",
+        "display": "Zebra",
+        "letters": "ZEBRA",
+        "paths": [
+          {
+            "start": {
+              "row": 3,
+              "col": 1
+            },
+            "end": {
+              "row": 3,
+              "col": 5
+            }
+          }
+        ]
+      }
+    ],
+    "engineVersion": "1.0.0",
+    "contentVersion": "animals-v1",
+    "checksum": "sha256:4784649e3de390b2be6a75ab1238efc834006c393ae466f69f00b9cbe56d0da4"
+  }
+}

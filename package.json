@@ -1,0 +1,41 @@
+{
+  "name": "word-search-engine",
+  "version": "0.1.0",
+  "description": "Seeded, deterministic word search puzzle generator and validator for TypeScript. Powers zlingbo.com.",
+  "keywords": ["word-search", "wordsearch", "puzzle", "puzzle-generator", "word-puzzle", "seeded", "deterministic", "typescript"],
+  "homepage": "https://zlingbo.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yukjin/word-search-engine.git"
+  },
+  "bugs": "https://github.com/yukjin/word-search-engine/issues",
+  "author": "yukjin (https://zlingbo.com)",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "engines": {
+    "node": ">=20.11"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "tsx --test test/*.test.ts",
+    "example": "tsx examples/basic.ts",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "24.13.6",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  }
+}

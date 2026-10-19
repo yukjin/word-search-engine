@@ -1,0 +1,314 @@
+{
+  "schemaVersion": "1.0.0",
+  "data": {
+    "id": "animals-hard-v1-0001",
+    "themeId": "animals",
+    "locale": "en-US",
+    "difficulty": "hard",
+    "rows": 14,
+    "cols": 14,
+    "grid": [
+      "JXYAOOXUDAQFPX",
+      "OVJPBEARCVYITF",
+      "VTKJCRMOUSEULV",
+      "BAGREGITKKXCJD",
+      "HCVPANDATZEPJI",
+      "RXIGZEBRACSPBZ",
+      "EUEKPGVTZEPMIQ",
+      "TIXQYHRZHCOURE",
+      "IIKOURUHMNGFDZ",
+      "BJMCFPLKKHFLIY",
+      "BFLXSNKEORGODH",
+      "ALIBBOYROEWWKO",
+      "ROOZYCSGBECKWN",
+      "ZMNRPESQNDMHJJ"
+    ],
+    "allowedDirections": [
+      "E",
+      "S",
+      "W",
+      "N",
+      "SE",
+      "SW",
+      "NE",
+      "NW"
+    ],
+    "targets": [
+      {
+        "id": "cat",
+        "display": "Cat",
+        "letters": "CAT",
+        "paths": [
+          {
+            "start": {
+              "row": 4,
+              "col": 1
+            },
+            "end": {
+              "row": 2,
+              "col": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "dog",
+        "display": "Dog",
+        "letters": "DOG",
+        "paths": [
+          {
+            "start": {
+              "row": 10,
+              "col": 12
+            },
+            "end": {
+              "row": 10,
+              "col": 10
+            }
+          }
+        ]
+      },
+      {
+        "id": "bird",
+        "display": "Bird",
+        "letters": "BIRD",
+        "paths": [
+          {
+            "start": {
+              "row": 5,
+              "col": 12
+            },
+            "end": {
+              "row": 8,
+              "col": 12
+            }
+          }
+        ]
+      },
+      {
+        "id": "frog",
+        "display": "Frog",
+        "letters": "FROG",
+        "paths": [
+          {
+            "start": {
+              "row": 9,
+              "col": 10
+            },
+            "end": {
+              "row": 12,
+              "col": 7
+            }
+          }
+        ]
+      },
+      {
+        "id": "horse",
+        "display": "Horse",
+        "letters": "HORSE",
+        "paths": [
+          {
+            "start": {
+              "row": 9,
+              "col": 9
+            },
+            "end": {
+              "row": 13,
+              "col": 5
+            }
+          }
+        ]
+      },
+      {
+        "id": "lion",
+        "display": "Lion",
+        "letters": "LION",
+        "paths": [
+          {
+            "start": {
+              "row": 10,
+              "col": 2
+            },
+            "end": {
+              "row": 13,
+              "col": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": "tiger",
+        "display": "Tiger",
+        "letters": "TIGER",
+        "paths": [
+          {
+            "start": {
+              "row": 3,
+              "col": 7
+            },
+            "end": {
+              "row": 3,
+              "col": 3
+            }
+          }
+        ]
+      },
+      {
+        "id": "zebra",
+        "display": "Zebra",
+        "letters": "ZEBRA",
+        "paths": [
+          {
+            "start": {
+              "row": 5,
+              "col": 4
+            },
+            "end": {
+              "row": 5,
+              "col": 8
+            }
+          }
+        ]
+      },
+      {
+        "id": "bear",
+        "display": "Bear",
+        "letters": "BEAR",
+        "paths": [
+          {
+            "start": {
+              "row": 1,
+              "col": 4
+            },
+            "end": {
+              "row": 1,
+              "col": 7
+            }
+          }
+        ]
+      },
+      {
+        "id": "wolf",
+        "display": "Wolf",
+        "letters": "WOLF",
+        "paths": [
+          {
+            "start": {
+              "row": 11,
+              "col": 11
+            },
+            "end": {
+              "row": 8,
+              "col": 11
+            }
+          }
+        ]
+      },
+      {
+        "id": "fox",
+        "display": "Fox",
+        "letters": "FOX",
+        "paths": [
+          {
+            "start": {
+              "row": 9,
+              "col": 4
+            },
+            "end": {
+              "row": 7,
+              "col": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": "deer",
+        "display": "Deer",
+        "letters": "DEER",
+        "paths": [
+          {
+            "start": {
+              "row": 13,
+              "col": 9
+            },
+            "end": {
+              "row": 10,
+              "col": 9
+            }
+          }
+        ]
+      },
+      {
+        "id": "mouse",
+        "display": "Mouse",
+        "letters": "MOUSE",
+        "paths": [
+          {
+            "start": {
+              "row": 2,
+              "col": 6
+            },
+            "end": {
+              "row": 2,
+              "col": 10
+            }
+          }
+        ]
+      },
+      {
+        "id": "rabbit",
+        "display": "Rabbit",
+        "letters": "RABBIT",
+        "paths": [
+          {
+            "start": {
+              "row": 12,
+              "col": 0
+            },
+            "end": {
+              "row": 7,
+              "col": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "monkey",
+        "display": "Monkey",
+        "letters": "MONKEY",
+        "paths": [
+          {
+            "start": {
+              "row": 6,
+              "col": 11
+            },
+            "end": {
+              "row": 11,
+              "col": 6
+            }
+          }
+        ]
+      },
+      {
+        "id": "panda",
+        "display": "Panda",
+        "letters": "PANDA",
+        "paths": [
+          {
+            "start": {
+              "row": 4,
+              "col": 3
+            },
+            "end": {
+              "row": 4,
+              "col": 7
+            }
+          }
+        ]
+      }
+    ],
+    "engineVersion": "1.0.0",
+    "contentVersion": "animals-v1",
+    "checksum": "sha256:ab16b4ce095e07720a8ef45e2503845c6b54242a0ee55836b401c2da5cbe6662"
+  }
+}
